@@ -1,0 +1,146 @@
+/* Reset some basic elements */
+body, h1, h2, form, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color and some padding to the body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Center the form on the page */
+.form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form headings */
+h1, h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Style form paragraphs as form row */
+.form p {
+  margin-bottom: 10px;
+}
+
+/* Style labels */
+label {
+  display: block;
+  margin-bottom: .5rem;
+  color: #666;
+}
+
+/* Style input fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box; /* Makes sure padding doesn't affect width */
+}
+
+/* Style radio buttons and checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Style file input */
+input[type="file"] {
+  border: none;
+}
+
+/* Style the submit and reset buttons */
+input[type="submit"],
+input[type="reset"], button{
+  background-color: #5cb85c; /* Green color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 8px;
+}
+
+input[type="reset"] {
+  background-color: #f0ad4e; /* Orange color */
+}
+
+/* Add hover effect for buttons */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  opacity: 0.9;
+}
+
+.info-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.info-container h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.info-container .section {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.info-container .section:last-child {
+  border-bottom: none;
+}
+
+.info-container h2 {
+  color: #5cb85c;
+  margin-bottom: 10px;
+}
+
+.info-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.info-container p strong {
+  color: #333;
+  font-weight: normal;
+}
+
+.message{
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: cornflowerblue;
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
